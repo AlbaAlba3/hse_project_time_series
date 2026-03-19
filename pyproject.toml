@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hse_project_time_series"
+version = "0.1.0"
+description = "Проект по курсы временные ряды ВШЭ"
+dependencies = [
+    "numpy",
+    "pandas",
+    "click",
+    "sktime",
+    "tslearn",
+    "statsmodels",
+    "matplotlib"
+]
+
+[project.scripts]
+experiment = "src.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src"]

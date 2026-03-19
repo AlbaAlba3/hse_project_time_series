@@ -1,6 +1,0 @@
-pandas
-sktime
-matplotlib
-tslearn
-catboost
-statsmodels
