@@ -3,3 +3,4 @@ sktime
 matplotlib
 tslearn
 catboost
+statsmodels
